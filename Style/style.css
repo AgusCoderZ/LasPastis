@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(163, 6, 45) ;
+}
+.hero_header{
+    font-family: 'Lobster Two', cursive;
+    height: 20vh;
+    background-color: rgb(163, 6, 45)
+}
+.hero_menu{
+    background-color: rgb(0, 0, 0);
+    justify-content: right;
+    font-size: 1.4rem;
+    gap: 1rem;
+    letter-spacing: 5px;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+}
+.grid-father{
+    display: grid;
+    background-color: rgb(167, 98, 98);
+    grid-template-columns: 70% 30%;
+}
+.grid_son{
+    background-color: rgb(228, 88, 72);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(51, 41, 41);
+    justify-content: auto;
+}
+.grid_son2{
+    background-color: rgb(167, 98, 98);
+    text-align: auto;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(51, 41, 41);
+    justify-content: auto;
+
+}
+.footer-content{
+    background-color: rgb(75, 39, 39);
+    height: 5vh; 
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    gap: 2rem;
+}
+.hero_content{
+    font-family: 'Figtree', sans-serif;
+}
+.socials{
+    background-color: rgb(0, 0, 0);
+}
