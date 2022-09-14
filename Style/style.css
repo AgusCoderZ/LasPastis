@@ -56,6 +56,13 @@ body{
 }
 .socials{
     background-color: rgb(0, 0, 0);
+    justify-content: left;
+    font-size: 1.4rem;
+    gap: 1rem;
+    letter-spacing: 5px;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
 }
 .nav-link{
     transform: 1s;
