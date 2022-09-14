@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(161, 6, 45) ;
+    background-color:rgb(187, 5, 51) ;
 }
 .hero_header{
     font-family: 'Lobster Two', cursive;
@@ -56,4 +56,10 @@ body{
 }
 .socials{
     background-color: rgb(0, 0, 0);
+}
+.nav-link{
+    transform: 1s;
+}
+.nav-link:hover{
+    transform: scale(1.1); translateY(-40px)
 }
