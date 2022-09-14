@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(163, 6, 45) ;
+    background-color:rgb(161, 6, 45) ;
 }
 .hero_header{
     font-family: 'Lobster Two', cursive;
@@ -46,6 +46,13 @@ body{
 }
 .hero_content{
     font-family: 'Figtree', sans-serif;
+    background-image: url("../img/picbanda.jpg");
+    min-height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+    background-position: center;
 }
 .socials{
     background-color: rgb(0, 0, 0);
