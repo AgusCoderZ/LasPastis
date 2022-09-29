@@ -1,0 +1,52 @@
+.footer{
+    background-color: rgba(218, 197, 10, 0.562);
+    height: 5vh; 
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+}
+
+.socials{
+        background-color: #6e5a5a;
+        justify-content: left;
+        font-size: 1.4rem;
+        gap: 1rem;
+        letter-spacing: 5px;
+        display: flex;
+        padding: 20px;
+        flex-direction: row,
+$redes(
+    facebook: blue,
+    instagram: pink,
+    twitter: #5e5eee,
+    Pagina oficial: grey
+)
+}
+
+
+@each $socials, $colors in $redes {
+    .nav-link#{$socials} {
+    background-color: $colors}
+}
+.nav-link1 {
+    @extend %linksocials;
+    @include socials(150px, 200px);
+}
+
+.nav-link2{
+    @extend %linksocials;
+    @include socials(150px, 200px);
+}
+.nav-link3{
+    @extend %linksocials;
+    @include socials(150px, 200px);
+}
+.nav-link4{
+    @extend %linksocials;
+    @include socials(150px, 200px);
+}
+
+@mixin socials ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}

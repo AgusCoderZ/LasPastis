@@ -1,0 +1,13 @@
+$mainColor: #6e5a5a;
+$secundaryColor: #000000;
+
+%linksocials{
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    
+    &:hover {
+    background-color: #464646;
+}
+}  

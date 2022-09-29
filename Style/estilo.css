@@ -1,0 +1,26 @@
+body {
+  background-color: salmon;
+}
+
+h1 {
+  background-color: black;
+  padding: 5px;
+}
+
+ul {
+  background-color: rgba(218, 197, 10, 0.562);
+  height: 5vh;
+  font-family: "Lobster Two", cursive;
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+}
+ul a {
+  background-color: rgb(110, 90, 90);
+  justify-content: left;
+  font-size: 1.4rem;
+  gap: 1rem;
+  letter-spacing: 5px;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+}/*# sourceMappingURL=estilo.css.map */

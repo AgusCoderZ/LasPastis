@@ -4,10 +4,10 @@ body{
 .hero_header{
     font-family: 'Lobster Two', cursive;
     height: 20vh;
-    background-color: rgb(163, 6, 45)
+    background-color: rgba(218, 197, 10, 0.562)
 }
 .hero_menu{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(110, 90, 90);
     justify-content: right;
     font-size: 1.4rem;
     gap: 1rem;
@@ -18,14 +18,14 @@ body{
 }
 .grid-father{
     display: grid;
-    background-color: rgb(167, 98, 98);
+    background-color: rgb(110, 62, 62);
     grid-template-columns: 70% 30%;
 }
 .grid_son{
-    background-color: rgb(228, 88, 72);
+    background-color: rgb(77, 60, 60);
     text-align: center;
-    color: rgb(0, 0, 0);
-    border: 5px solid rgb(51, 41, 41);
+    color: rgb(61, 53, 53);
+    border: 5px solid rgb(66, 64, 64);
     justify-content: auto;
 }
 .grid_son2{
@@ -37,26 +37,22 @@ body{
 
 }
 .footer-content{
-    background-color: rgb(75, 39, 39);
+    background-color: rgba(218, 197, 10, 0.562);
     height: 5vh; 
     font-family: 'Lobster Two', cursive;
     font-size: 1.4rem;
     letter-spacing: 5px;
-    gap: 2rem;
 }
 .hero_content{
     font-family: 'Figtree', sans-serif;
     background-image: url("../img/picbanda.jpg");
     min-height: 500px;
-    width: 100%;
-    margin: 0;
-    padding: 0; 
     background-size: cover;
     background-position: center;
 }
 .socials{
-    background-color: rgb(0, 0, 0);
-    justify-content: left;
+    background-color: #6e5a5a;
+    justify-content: center;
     font-size: 1.4rem;
     gap: 1rem;
     letter-spacing: 5px;
@@ -69,4 +65,20 @@ body{
 }
 .nav-link:hover{
     transform: scale(1.1);
+}
+.nav-link1{
+    transform: 1s;
+    background-color: pink;
+}
+.nav-link2{
+    transform: 1s;
+    background-color: blue;
+}
+.nav-link3{
+    transform: 1s;
+    background-color: #5e5eee;
+}
+.nav-link4{
+    transform: 1s;
+    background-color: grey;
 }
