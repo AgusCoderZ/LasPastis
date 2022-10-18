@@ -1,3 +1,13 @@
+@import "./partials/variables";
+@import "./partials/footer";
+@import "./partials/header";
+
+
+
+
+
+
+
 $colorbg: salmon;
 body{
     background-color: $colorbg;
@@ -7,8 +17,7 @@ h1{
     padding: 5px;
 }
 ul{
-    background-color: rgba(218, 197, 10, 0.562);
-    height: 5vh; 
+    background-color: rgba(218, 197, 10, 0.562); 
     font-family: 'Lobster Two', cursive;
     font-size: 1.4rem;
     letter-spacing: 5px;
@@ -21,5 +30,6 @@ ul{
         display: flex;
         padding: 20px;
         flex-direction: row;
+        margin-bottom: 0;
     }
 }

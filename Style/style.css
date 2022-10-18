@@ -3,7 +3,6 @@ body{
 }
 .hero_header{
     font-family: 'Lobster Two', cursive;
-    height: 20vh;
     background-color: rgba(218, 197, 10, 0.562)
 }
 .hero_menu{
@@ -19,36 +18,42 @@ body{
 .grid-father{
     display: grid;
     background-color: rgb(110, 62, 62);
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 65% 35%;
 }
 .grid_son{
-    background-color: rgb(77, 60, 60);
+    background-color: rgba(218, 197, 10, 0.562);
     text-align: center;
     color: rgb(61, 53, 53);
     border: 5px solid rgb(66, 64, 64);
     justify-content: auto;
 }
 .grid_son2{
-    background-color: rgb(167, 98, 98);
-    text-align: auto;
+    background-color: rgb(179, 37, 37);
+    background-size: cover;
     color: rgb(0, 0, 0);
     border: 5px solid rgb(51, 41, 41);
     justify-content: auto;
 
 }
 .footer-content{
-    background-color: rgba(218, 197, 10, 0.562);
-    height: 5vh; 
+    background-color: rgba(218, 197, 10, 0.562); 
     font-family: 'Lobster Two', cursive;
     font-size: 1.4rem;
     letter-spacing: 5px;
+    margin-bottom: 0;
 }
 .hero_content{
     font-family: 'Figtree', sans-serif;
-    background-image: url("../img/picbanda.jpg");
-    min-height: 500px;
     background-size: cover;
     background-position: center;
+}
+.imagenPrincipal{
+    background-image: url("../img/picbanda.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
 }
 .socials{
     background-color: #6e5a5a;
@@ -59,6 +64,7 @@ body{
     display: flex;
     padding: 20px;
     flex-direction: row;
+    margin-bottom: 0;
 }
 .nav-link{
     transform: 1s;
@@ -68,17 +74,23 @@ body{
 }
 .nav-link1{
     transform: 1s;
-    background-color: pink;
+    background-color: #8ba711;
 }
 .nav-link2{
     transform: 1s;
-    background-color: blue;
+    background-color: #8ca810;
 }
 .nav-link3{
     transform: 1s;
-    background-color: #5e5eee;
+    background-color: #a0c011;
 }
 .nav-link4{
     transform: 1s;
-    background-color: grey;
+    background-color: #a2c214;
+}
+
+@media screen and (max-width: 480px) {
+    .hero_menu{
+        flex-direction: column;
+    }
 }

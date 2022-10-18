@@ -14,13 +14,7 @@
         letter-spacing: 5px;
         display: flex;
         padding: 20px;
-        flex-direction: row,
-$redes(
-    facebook: blue,
-    instagram: pink,
-    twitter: #5e5eee,
-    Pagina oficial: grey
-)
+        flex-direction: row;
 }
 
 
@@ -30,20 +24,16 @@ $redes(
 }
 .nav-link1 {
     @extend %linksocials;
-    @include socials(150px, 200px);
 }
 
 .nav-link2{
     @extend %linksocials;
-    @include socials(150px, 200px);
 }
 .nav-link3{
     @extend %linksocials;
-    @include socials(150px, 200px);
 }
 .nav-link4{
     @extend %linksocials;
-    @include socials(150px, 200px);
 }
 
 @mixin socials ($ancho, $alto) {
